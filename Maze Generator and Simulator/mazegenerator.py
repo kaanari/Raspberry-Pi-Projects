@@ -1,5 +1,10 @@
 from random import shuffle, randrange
 
+class Maze:
+    name = "Class"
+
+
+
 def make_maze(w=2, h=4):
     vis = [[0] * w + [1] for _ in range(h)] + [[1] * (w + 1)]
     ver = [["10"] * w + ['1'] for _ in range(h)] + [[]]
