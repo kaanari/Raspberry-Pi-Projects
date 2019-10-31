@@ -1,6 +1,11 @@
 import RPi.GPIO as GPIO
 import time
 
+
+class Car:
+    speed = 0
+    color = "blue"
+
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
